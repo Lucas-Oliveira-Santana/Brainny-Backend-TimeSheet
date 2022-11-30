@@ -65,10 +65,13 @@ To run the project, follow the next steps:
     }
   
    ```
+   
+   ![foto1](https://user-images.githubusercontent.com/107402924/204840779-f8f8db44-05f9-4089-be26-3cbd982eea21.png)
   
   
   Login and generate a jwt Token
   ```bash
+
   http://localhost:2222/users/login
   
   Example:
@@ -80,6 +83,8 @@ To run the project, follow the next steps:
     
   ```
   
+  ![foto2](https://user-images.githubusercontent.com/107402924/204841072-ab57d4d3-a447-483b-a6fc-4b72075889ab.png)
+  
   To start a day
   
   ```bash
@@ -89,6 +94,8 @@ To run the project, follow the next steps:
   You should put a token in Bearer Token route
   ```
   
+  ![foto3](https://user-images.githubusercontent.com/107402924/204841144-618aa6a4-2a83-4947-b9ec-93a44da0d907.png)
+  
   To end a day
   
   ```bash
@@ -97,6 +104,8 @@ To run the project, follow the next steps:
   You should put a token in Bearer Token route
   ```
   
+  ![foto4](https://user-images.githubusercontent.com/107402924/204841209-d8878faf-dd6c-4ca4-82e9-072598ab8e5a.png)
+  
   List all registers in TimeSheet
   
   ```bash
@@ -104,8 +113,8 @@ To run the project, follow the next steps:
   
   You should put a Admin token in Bearer Token route
   ```
-
-
+  
+  ![foto5](https://user-images.githubusercontent.com/107402924/204841300-2f3975c1-790a-4b37-9286-98bbdf7ff2e7.png)
 
 
 
@@ -120,3 +129,7 @@ To run the project, follow the next steps:
 - [JWT](https://jwt.io/)
 - [bcryptjs](https://www.npmjs.com/package/bcryptjs)
 - [tsyringe](https://www.npmjs.com/package/tsyringe)
+
+
+
+
