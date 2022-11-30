@@ -45,7 +45,7 @@ To run the project, follow the next steps:
  
  # Routes
   
-  Create a new user, if your want add a new admin, you should put "isAdmin":true
+  To Create a new user
   ```bash
   http://localhost:2222/users
   
@@ -69,7 +69,7 @@ To run the project, follow the next steps:
    ![foto1](https://user-images.githubusercontent.com/107402924/204840779-f8f8db44-05f9-4089-be26-3cbd982eea21.png)
   
   
-  Login and generate a jwt Token
+  To Login and generate a jwt Token
   ```bash
 
   http://localhost:2222/users/login
