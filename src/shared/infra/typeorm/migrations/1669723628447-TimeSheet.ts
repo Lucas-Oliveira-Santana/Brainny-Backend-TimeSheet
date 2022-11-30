@@ -18,12 +18,13 @@ export class TimeSheet1669723628447 implements MigrationInterface {
                     },
                     {
                         name:"start_hour",
-                        type:"timestamp",
-                        default:"now()"
+                        type:"varchar",
+                        isNullable: false
                     },
                     {
                         name:"end_hour",
-                        type:"timestamp"
+                        type:"varchar",
+                        isNullable: true
                     }
                 ],
                 foreignKeys:[

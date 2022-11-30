@@ -12,10 +12,12 @@ class TimeSheet{
   user_id:string
 
   @Column()
-  start_hour:Date
+  start_hour:string
 
   @Column()
-  end_hour:Date
+  end_hour:string
+
+  
 
   constructor(){
     if(!this.id){
